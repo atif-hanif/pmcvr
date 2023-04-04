@@ -200,21 +200,25 @@ header {
 
 /* What Is VR Hub */
 
-/* .what-is-vr-hub {
+.what-is-vr-hub {
     background-image: url(https://www.urbanhouseholds.com/pmcvr/wp-content/uploads/2023/03/vr-hub-banner.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0px;
-} */
+    /* padding: 50px 0px; */
+}
 
-.what-is-vr-hub { 
+.what-is-vr-hub .spacer {
+    height: 50px;
+}
+
+/* .what-is-vr-hub { 
     position: relative;
 }
 
 .what-is-vr-hub-img { 
     width: 100%;
-}
+} 
 
 .section1 {
     position: absolute;
@@ -226,26 +230,26 @@ header {
     position: absolute;
     top: 570px;
     width: 50%;
-}
+}*/
 
 .what-is-vr-hub h2 {
     color: #282984;
     font-size: 80px;
     font-weight: 700;
-    position: absolute;
-    top: 50px;
+    /* position: absolute;
+    top: 50px; */
 }
 
 .vr-hub {
-    width: 50%;
-    position: absolute;
-    top: 50px;
+    width: 100%;
+    /* position: absolute;
+    top: 50px; */
 }
 
 .vr-hub-img {
-    position: absolute;
-    top: 80px;
-    width: 50%;
+    /* position: absolute;
+    top: 80px; */
+    width: 100%;
 }
 
 .what-is-vr-hub h3 {
@@ -256,22 +260,22 @@ header {
 
 .what-is-vr-hub p {
     color: #282984;
-    position: absolute;
+    /* position: absolute; */
 }
 
 /* How It Works */
 
-/* .how-it-works {
+.how-it-works {
     background-image: url(https://www.urbanhouseholds.com/pmcvr/wp-content/uploads/2023/03/how-it-works-banner.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 623px 0px;
-} */
-
-.how-it-works {
-    position: relative;
+    /* padding: 623px 0px; */
 }
+
+/* .how-it-works {
+    position: relative;
+} */
 
 .how-it-works-img {
     width: 100%;
@@ -281,24 +285,39 @@ header {
     color: #282984;
     font-size: 60px;
     font-weight: 700;
-    position: absolute;
+    padding-left: 70px;
+    /* position: absolute;
     top: 50px;
-    left: 50px;
+    left: 50px; */
 }
 
 .how-it-works h3 {
     color: #E961AF;
     font-weight: 700;
-    position: absolute;
+    padding-left: 70px;
+    /* position: absolute;
     top: 500px;
-    left: 550px;
+    left: 550px; */
 }
 
 .how-it-works p {
     color: #282984;
-    position: absolute;
+    padding-left: 70px;
+    /* position: absolute;
     top: 550px;
-    left: 550px;
+    left: 550px; */
+}
+
+.how-it-works .spacer1 {
+    height: 30px;
+}
+
+.how-it-works .spacer2 {
+    height: 150px;
+}
+
+.how-it-works .spacer3 {
+    height: 50px;
 }
 
 /* Responsive */
@@ -429,6 +448,7 @@ header {
     .section1 {
         padding-left: 35px;
         padding-right: 35px;
+        margin-right: -200px;
     }
 
     .section2 {
